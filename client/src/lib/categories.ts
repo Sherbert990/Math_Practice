@@ -3,8 +3,8 @@
  *
  * HOW TO ADD A NEW CATEGORY:
  *  1. Add a new entry to CATEGORIES.md following the documented format.
- *  2. Tell Manus: "Regenerate the website from CATEGORIES.md".
- *  3. Manus will add a new CategoryDef entry here and implement the generator.
+ *  2. Ask your coding agent to "regenerate the website from CATEGORIES.md".
+ *  3. It will add a new CategoryDef entry here and implement the generator.
  *
  * User overrides (label, sublabel, defaultDifficulty, difficultyParams, exampleQuestions)
  * are stored in localStorage via storage.ts and applied at runtime — no code changes needed.

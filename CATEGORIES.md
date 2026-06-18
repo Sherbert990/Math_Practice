@@ -1,7 +1,7 @@
 # Math Practice — Category Configuration
 
 This file is the **single source of truth** for all question categories on the website.
-To add a new category or modify an existing one, edit this file and ask Manus to "regenerate from CATEGORIES.md".
+To add a new category or modify an existing one, edit this file and ask your coding agent to "regenerate from CATEGORIES.md".
 
 ---
 
@@ -36,8 +36,8 @@ key-value fields and, for word-problem types, a `### Scenarios` section listing 
 Each category defines **three difficulty tiers** inside its `### Difficulty Levels` section.
 Each tier has its own `params` block that overrides the category defaults.
 
-You can also provide **example questions** as a calibration anchor — these show Manus exactly
-what "medium" looks like for your category so the generator can scale easy/hard relative to it.
+You can also provide **example questions** as a calibration anchor — these show the generator exactly
+what "medium" looks like for your category so it can scale easy/hard relative to it.
 
 | Difficulty | Intent |
 |---|---|
@@ -365,7 +365,7 @@ forms:
 ## Adding a new category
 
 To add a new category, copy one of the blocks above and fill in the fields.
-Then tell Manus: **"Regenerate the website from CATEGORIES.md"**.
+Then ask your coding agent: **"Regenerate the website from CATEGORIES.md"**.
 
-When adding difficulty levels, provide at least one **Example** under `#### Medium` so Manus
+When adding difficulty levels, provide at least one **Example** under `#### Medium` so the generator
 knows the exact complexity you consider "standard" for that category.

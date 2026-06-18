@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import type { AMC8Data } from "@/lib/amc8Types";
 
-const AMC8_DATA_URL = "/manus-storage/amc8_categorized_600df9fc.json";
+const AMC8_DATA_URL = "/amc8_categorized_600df9fc.json";
 
 // Module-level cache so we don't re-fetch on every mount
 let cachedData: AMC8Data | null = null;
